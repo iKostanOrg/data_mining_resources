@@ -1,19 +1,19 @@
-# Data Mining, Data Analytics, Machine Learning, Artificial Intelligence, and Big Data Resources
-A curated list of resources for learning about data mining, data analytics, machine learning, artificial intelligence, and big data.
+# Uncle Steve's Big List of Analytics and AI Resources
+A curated list of :sparkles: awesome :sparkles: resources for learning about data analytics, machine learning, artificial intelligence, and big data.
 
-## Table of Contents
+# Table of Contents
 
-- [Overviews of Data Analytics](#overviews-of-data-analytics)
 - [Books](#books)
-- [Podcasts](#Podcasts)
+- [Podcasts](#podcasts)
+- [Newsletters](#newsletters)
+- [Overviews](#overviews)
 - [Case Studies, Use Cases, Blogs, Papers](#case-studies-use-cases-blogs-papers)
 - [Data Analytics Process](#data-analytics-process)
-- [Models and Algorithms](#models-and-algorithms)
+- [Algorithms and Techniques](#algorithms-and-techniques)
 - [APIs, Libraries, Tools](#apis-libraries-tools)
 - [Big Data](#big-data)
 - [Courses](#courses)
 - [Datasets](#datasets)
-- [Software Engineering for Data Science](#software-engineering-for-data-science)
 - [Misc](#misc)
 
 # Books
@@ -25,6 +25,12 @@ A curated list of resources for learning about data mining, data analytics, mach
 - [Advances in Financial Machine Learning](https://www.wiley.com/en-ca/Advances+in+Financial+Machine+Learning-p-9781119482086) ([YouTube overview](https://www.youtube.com/watch?v=MP-jMMOgdjQ))
 - [Seeing Theory - A visual introduction to probability and statistics](https://seeing-theory.brown.edu/index.html)
 - [Interpretable Machine Learning. A Guide for Making Black Box Models Explainable.](https://christophm.github.io/interpretable-ml-book/)
+- [Introduction to Data Mining](https://www-users.cs.umn.edu/~kumar001/dmbook/index.php)
+- [Data Science from Scratch](https://www.oreilly.com/library/view/data-science-from/9781492041122/)
+- [Practical Statistics for Data Scientists](https://www.oreilly.com/library/view/practical-statistics-for/9781492072935/)
+- [Learning to Love Data Science](https://www.oreilly.com/library/view/learning-to-love/9781491936573/)
+- [Doing Data Science](https://www.oreilly.com/library/view/doing-data-science/9781449363871/)
+- [Data Mining](https://www.cs.waikato.ac.nz/ml/weka/book.html)
 
 ## Popular Press Books
 
@@ -42,7 +48,18 @@ A curated list of resources for learning about data mining, data analytics, mach
 - [This Week in ML and AI](https://twimlai.com/)
 - [Machine Learning Guide](http://ocdevel.com/mlg)
 
-## Overviews of Data Analytics
+# Newsletters
+- [Data Elixir](https://dataelixir.com/)
+- [KDnuggets News](https://www.kdnuggets.com/news/subscribe.html)
+- [O'Reilly Data & AI Newsletter](https://www.oreilly.com/emails/newsletters/)
+- [Data Science Weekly](https://www.datascienceweekly.org/)
+- [AAAI Alert](https://aitopics.org/class/AI-Alerts)
+- [Medium Weekly Digest](https://medium.com/)
+- [TOPBOTS](https://www.topbots.com/enterprise-ai-news-pro-newsletter)
+
+# Overviews 
+
+#### Data Analytics
 
 - [44 Noteworthy Big Data Statistics in 2019](https://learn.g2.com/big-data-statistics)
 - [The 4 Types of Data Analytics](http://www.kdnuggets.com/2017/07/4-types-data-analytics.html)
@@ -53,7 +70,7 @@ A curated list of resources for learning about data mining, data analytics, mach
 - [Machine Learning for Economists: An Introduction](https://antontarasenko.com/2015/12/28/machine-learning-for-economists-an-introduction)
 - [A Gentle Guide to Machine Learning](https://monkeylearn.com/blog/a-gentle-guide-to-machine-learning/)
 - [A visual introduction to machline learning](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/)
-- [Machine Learning Mindmap / Cheatsheet](https://github.com/dformoso/machine-learning-mindmap?utm_campaign=Data%2BElixir&utm_medium=email&utm_source=Data_Elixir_146)
+- [Machine Learning Mindmap / Cheatsheet](https://github.com/dformoso/machine-learning-mindmap)
 - [Machine Learning for Humans](https://medium.com/machine-learning-for-humans/why-machine-learning-matters-6164faf1df12) Aug 2017.
 - [4-Steps to Get Started in Machine Learning](https://machinelearningmastery.com/4-steps-to-get-started-in-machine-learning/) March 2014.
 - [Jason's Machine Learning 101](https://docs.google.com/presentation/d/1kSuQyW5DTnkVaZEjGYCkfOxvzCqGEFzWBy4e9Uedd9k/edit#slide=id.g183f28bdc3_0_90)
@@ -71,13 +88,13 @@ A curated list of resources for learning about data mining, data analytics, mach
 - [A list of artificial intelligence tools you can use today — for businesses](https://hackernoon.com/a-list-of-artificial-intelligence-tools-you-can-use-today-for-businesses-2-3-eea3ac374835)
 - [AI and Deep Learning, Explained Simply](http://www.kdnuggets.com/2017/07/ai-deep-learning-explained-simply.html)
 - [The AI Hierarchy of Needs](https://hackernoon.com/the-ai-hierarchy-of-needs-18f111fcc007). August 2017.
-- [A Survey of 3,000 Executives Reveals How Businesses Succeed with AI](https://hbr.org/2017/08/a-survey-of-3000-executives-reveals-how-businesses-succeed-with-ai?utm_campaign=Data%2BElixir&utm_medium=email&utm_source=Data_Elixir_146). HRB. August 2017.
-- [How to Regulate Artificial Intelligence](https://www.nytimes.com/2017/09/01/opinion/artificial-intelligence-regulations-rules.html?utm_campaign=Data%2BElixir&utm_medium=email&utm_source=Data_Elixir_147). Sep 2017.
+- [A Survey of 3,000 Executives Reveals How Businesses Succeed with AI](https://hbr.org/2017/08/a-survey-of-3000-executives-reveals-how-businesses-succeed-with-ai). HRB. August 2017.
+- [How to Regulate Artificial Intelligence](https://www.nytimes.com/2017/09/01/opinion/artificial-intelligence-regulations-rules.html). Sep 2017.
 - [Will AI kill us all after taking our jobs?](http://www.kdnuggets.com/2017/09/will-ai-kill-after-taking-jobs.html) Sep 2017.
-- [Is AI Riding a One-Trick Pony?](https://www.technologyreview.com/s/608911/is-ai-riding-a-one-trick-pony/?utm_campaign=Data%2BElixir&utm_medium=email&utm_source=Data_Elixir_151)
+- [Is AI Riding a One-Trick Pony?](https://www.technologyreview.com/s/608911/is-ai-riding-a-one-trick-pony/)
 - [51 Artificial Intelligence (AI) Predictions For 2018](https://www.forbes.com/sites/gilpress/2017/11/28/51-artificial-intelligence-ai-predictions-for-2018/#3c960755582a). Forbes, Nov 2017.
 - [How Do Machines Learn?](http://www.cgpgrey.com/blog/how-do-machines-learn). Fun little video.
-- [What AI can and can’t do (yet) for your business](https://www.mckinsey.com/business-functions/mckinsey-analytics/our-insights/what-ai-can-and-cant-do-yet-for-your-business?utm_campaign=Data%2BElixir&utm_medium=email&utm_source=Data_Elixir_165)
+- [What AI can and can’t do (yet) for your business](https://www.mckinsey.com/business-functions/mckinsey-analytics/our-insights/what-ai-can-and-cant-do-yet-for-your-business)
 - [The Simple Economics of Machine Intelligence](https://hbr.org/2016/11/the-simple-economics-of-machine-intelligence) HBR, 2017.
 - [Tencent says there are only 300,000 AI engineers worldwide, but millions are needed](https://www.theverge.com/2017/12/5/16737224/global-ai-talent-shortfall-tencent-report)
 - [The GANfather: The man who’s given machines the gift of imagination](https://www.technologyreview.com/s/610253/the-ganfather-the-man-whos-given-machines-the-gift-of-imagination/)
@@ -99,14 +116,9 @@ A curated list of resources for learning about data mining, data analytics, mach
 - [An Introduction to Deep Learning for Tabular Data](http://www.fast.ai/2018/04/29/categorical-embeddings/). April 2018.
 
 
-## Case Studies, Use Cases, Blogs, Papers
+# Case Studies, Use Cases, Blogs, Papers
 
-- [Using Machine Learning to Predict Value of Homes On Airbnb](https://medium.com/airbnb-engineering/using-machine-learning-to-predict-value-of-homes-on-airbnb-9272d3d4739d). Airbnb Blog. July 2017.
-- [Google Quick, Draw](https://quickdraw.withgoogle.com/)
-- [NYTimes: Will you Graduate? Ask Big Data.](https://mobile.nytimes.com/2017/02/02/education/edlife/will-you-graduate-ask-big-data.html)
-- [Analyzing 1.1 billion NYC taxi and uber trips](http://toddwschneider.com/posts/analyzing-1-1-billion-nyc-taxi-and-uber-trips-with-a-vengeance/)
-- [The Next Wave: Predicting the future of coffee in New York City](https://medium.com/topos-ai/the-next-wave-predicting-the-future-of-coffee-in-new-york-city-23a0c5d62000). Medium, Sep 2017.
-- [New-Age Machine Learning Algorithms in Retail Lending](http://www.kdnuggets.com/2017/09/machine-learning-algorithms-lending.html) Sep 2017.
+
 
 
 
@@ -171,7 +183,7 @@ Machine-Learning Algorithms](http://mitsloan.mit.edu/media/Lo_ConsumerCreditRisk
 - [A Day in the Life of a Marketing Analytics Professional](https://towardsdatascience.com/a-day-in-the-life-of-a-marketing-analytics-professional-83dd45f2e702). Aug 2018.
 
 
-## Data Analytics Process
+# Data Analytics Process
 
 - [What is the most important step in a machine learning project?](http://www.kdnuggets.com/2017/08/most-important-step-machine-learning-project.html)
 - [https://machinelearningmastery.com/machine-learning-performance-improvement-cheat-sheet/](https://machinelearningmastery.com/machine-learning-performance-improvement-cheat-sheet/)
@@ -201,6 +213,7 @@ Machine-Learning Algorithms](http://mitsloan.mit.edu/media/Lo_ConsumerCreditRisk
 
 #### Data Cleaning
 
+- [How to Perform Data Cleaning for Machine Learning with Python](https://machinelearningmastery.com/basic-data-cleaning-for-machine-learning/). March 2020.
 - [The Ultimate Guide to Basic Data Cleaning](http://www.kdnuggets.com/2017/08/socialcops-ultimate-guide-basic-data-cleaning.html)
 - [An introduction to data cleaning with R](https://cran.r-project.org/doc/contrib/de_Jonge+van_der_Loo-Introduction_to_data_cleaning_with_R.pdf)
 - [Reducing Dimensionality from Dimensionality Reduction Techniques](https://medium.com/towards-data-science/reducing-dimensionality-from-dimensionality-reduction-techniques-f658aec24dfe). July 2017.
@@ -257,8 +270,28 @@ Machine-Learning Algorithms](http://mitsloan.mit.edu/media/Lo_ConsumerCreditRisk
 
 - [Tune Machine Learning Algorithms in R (random forest case study)](https://machinelearningmastery.com/tune-machine-learning-algorithms-in-r/). Feb 2016
 
+#### Production
 
-## Models and Algorithms
+- [Putting ML in Production](https://madewithml.com/courses/putting-ml-in-production)
+- [Machine Learning Engineering](http://www.mlebook.com/wiki/doku.php?fbclid=IwAR1VwwV25Mgj93UiWbclzvsBEVHJ1D0uB8BflN7YEL9ktNZG-Y2-upRH9RA)
+- [Software development best practices in a deep learning environment](https://towardsdatascience.com/software-development-best-practices-in-a-deep-learning-environment-a1769e9859b1). April 2019.
+- [Software Engineering for Machine Learning: A Case Study](https://www.microsoft.com/en-us/research/uploads/prod/2019/03/amershi-icse-2019_Software_Engineering_for_Machine_Learning.pdf). [Blog commentary on this paper](https://blog.acolyer.org/2019/07/08/software-engineering-for-machine-learning/).
+- [Machine Learning Software Engineering: Top Five Best Practices](https://www.lorienpratt.com/machine-learning-software-engineering-top-five-best-practices/)
+- [Best Practices in Machine Learning Infrastructure](https://blog.algorithmia.com/best-practices-in-machine-learning-infrastructure). July 2019.
+- [Rules of Machine Learning: Best Practices for ML Engineering](https://developers.google.com/machine-learning/guides/rules-of-ml)
+
+
+#### Misc
+
+- [Using Machine Learning to Predict Value of Homes On Airbnb](https://medium.com/airbnb-engineering/using-machine-learning-to-predict-value-of-homes-on-airbnb-9272d3d4739d). Airbnb Blog. July 2017.
+- [Google Quick, Draw](https://quickdraw.withgoogle.com/)
+- [NYTimes: Will you Graduate? Ask Big Data.](https://mobile.nytimes.com/2017/02/02/education/edlife/will-you-graduate-ask-big-data.html)
+- [Analyzing 1.1 billion NYC taxi and uber trips](http://toddwschneider.com/posts/analyzing-1-1-billion-nyc-taxi-and-uber-trips-with-a-vengeance/)
+- [The Next Wave: Predicting the future of coffee in New York City](https://medium.com/topos-ai/the-next-wave-predicting-the-future-of-coffee-in-new-york-city-23a0c5d62000). Medium, Sep 2017.
+- [New-Age Machine Learning Algorithms in Retail Lending](http://www.kdnuggets.com/2017/09/machine-learning-algorithms-lending.html) Sep 2017.
+
+
+# Algorithms and Techniques
 
 - [Comparing supervised learning algorithms](http://www.dataschool.io/comparing-supervised-learning-algorithms/). Feb 2015.
 - [How to choose algorithms for Microsoft Azure Machine Learning](https://docs.microsoft.com/en-us/azure/machine-learning/machine-learning-algorithm-choice)
@@ -399,6 +432,8 @@ Machine-Learning Algorithms](http://mitsloan.mit.edu/media/Lo_ConsumerCreditRisk
 #### Logistic Regression
 
 - [Implementing Logistic Regression using Titanic dataset in R](https://analyticsdefined.com/implementing-logistic-regression-using-titanic-dataset-r/)
+
+
 
 
 ## APIs, Libraries, Tools
@@ -583,9 +618,7 @@ Machine-Learning Algorithms](http://mitsloan.mit.edu/media/Lo_ConsumerCreditRisk
 - [Blog: MapReduce Questions and Answers](http://meri-stuff.blogspot.ca/2011/10/mapreduce-questions-and-answers.html)
 
 
-	
-
-## Courses
+# Courses
 - [Every single Machine Learning course on the internet, ranked by your reviews](https://medium.freecodecamp.org/every-single-machine-learning-course-on-the-internet-ranked-by-your-reviews-3c4a7b8026c0)
 - [CMU: Statistical Machine Learning](http://www.stat.cmu.edu/~larry/=sml/)
 - [CMU: Introduction to Machine Learning](http://www.cs.cmu.edu/~mgormley/courses/10701-f16/)
@@ -602,7 +635,7 @@ Machine-Learning Algorithms](http://mitsloan.mit.edu/media/Lo_ConsumerCreditRisk
   - [Machine Learning](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-867-machine-learning-fall-2006/)
   - [Marketing Management: Analytics, Frameworks, and Applications](https://ocw.mit.edu/courses/sloan-school-of-management/15-810-marketing-management-analytics-frameworks-and-applications-fall-2015/)
 
-## Datasets
+# Datasets
 
 - [UCI](https://archive.ics.uci.edu/ml/datasets.html)
 - [Kaggle Datasets](https://www.kaggle.com/datasets)
@@ -619,7 +652,7 @@ Machine-Learning Algorithms](http://mitsloan.mit.edu/media/Lo_ConsumerCreditRisk
 - [Data Commons](https://datacommons.org/)
 - [Recommender Systems Datasets](https://cseweb.ucsd.edu/~jmcauley/datasets.html)
 
-## Career and Industry
+# Career and Industry
 
 - [The State of Data Science and Machine Learning, 2017 Survery](https://www.kaggle.com/surveys/2017)
 - [AI and Deep Learning in 2017 – A Year in Review](http://www.wildml.com/2017/12/ai-and-deep-learning-in-2017-a-year-in-review/). Dec 31, 2017. WildML.
@@ -629,16 +662,9 @@ Machine-Learning Algorithms](http://mitsloan.mit.edu/media/Lo_ConsumerCreditRisk
 - [Big Companies Are Embracing Analytics, But Most Still Don’t Have a Data-Driven Culture](https://hbr.org/2018/02/big-companies-are-embracing-analytics-but-most-still-dont-have-a-data-driven-culture)
 - [Data Science and Machine Learning Interview Questions](https://towardsdatascience.com/data-science-and-machine-learning-interview-questions-3f6207cf040b)
 - [How to Build Disruptive Data Science Teams: 10 Best Practices](https://www.kdnuggets.com/2019/07/disruptive-data-science-teams-best-practices.html)
+- [NLP Interview Questions](https://www.topbots.com/nlp-interview-questions/)
 
-## Software Engineering for Data Science
-
-- [Software development best practices in a deep learning environment](https://towardsdatascience.com/software-development-best-practices-in-a-deep-learning-environment-a1769e9859b1). April 2019.
-- [Software Engineering for Machine Learning: A Case Study](https://www.microsoft.com/en-us/research/uploads/prod/2019/03/amershi-icse-2019_Software_Engineering_for_Machine_Learning.pdf). [Blog commentary on this paper](https://blog.acolyer.org/2019/07/08/software-engineering-for-machine-learning/).
-- [Machine Learning Software Engineering: Top Five Best Practices](https://www.lorienpratt.com/machine-learning-software-engineering-top-five-best-practices/)
-- [Best Practices in Machine Learning Infrastructure](https://blog.algorithmia.com/best-practices-in-machine-learning-infrastructure). July 2019.
-- [Rules of Machine Learning: Best Practices for ML Engineering](https://developers.google.com/machine-learning/guides/rules-of-ml)
-
-## Misc
+# Misc
 
 - [Same Stats, Different Graphs: Generating Datasets with Varied Appearance and Identical Statistics through Simulated Annealing](https://www.autodeskresearch.com/publications/samestats)
 - [DataCamp: Intro to data.world in Python](https://www.datacamp.com/community/open-courses/intro-to-dataworld-in-python#gs.U5ShDVo)
